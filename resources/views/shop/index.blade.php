@@ -1,6 +1,6 @@
 @extends('layouts.index')
 
-@section('title', 'LOYAL অভিযাত্রী | আপনার প্রয়োজন শুধু বলুন, আমরা পৌঁছে যাবো আপনার দরজায়।')
+@section('title', 'Al Amana Halal & Global Food | আপনার প্রয়োজন শুধু বলুন, আমরা পৌঁছে যাবো আপনার দরজায়।')
 
 @section('css')
   <script type="text/javascript" src="{{ asset('vendor/hcode/js/jquery.min.js') }}"></script>
@@ -66,7 +66,7 @@
           <div class="row">
               <div class="col-md-6 col-sm-10 text-center center-col">
                   {{-- <span class="margin-five no-margin-top display-block letter-spacing-2">EST. 2018</span> --}}
-                  <h2>LOYAL অভিযাত্রী</h2>
+                  <h2>Al Amana Halal & Global Food</h2>
                   <p class="text-med width-90 center-col margin-seven no-margin-bottom">
                     আপনার প্রয়োজন শুধু বলুন, আমরা পৌঁছে যাবো আপনার দরজায়...
                   </p>
