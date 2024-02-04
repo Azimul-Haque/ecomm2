@@ -340,7 +340,7 @@ class ProductController extends Controller
           Session::flash('warning', 'আপনি নিজের আইডিকে রেফার করতে পারবেন না! ধন্যবাদ।');
         }
       } catch(\Exception $e) {
-        Session::flash('warning', 'আপনার নিশ্চিতকরণে কোন সমস্যা হয়েছে। অনুগ্রহ করে আবার চেষ্টা করুন।');
+        Session::flash('warning', 'There was a problem with your confirmation. Please try again.');
         return redirect()->route('product.index');
       }
 
