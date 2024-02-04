@@ -84,7 +84,7 @@
                 @endif
                 <li class="list-group-item">
                   <input type="hidden" name="actualtotalprice" id="actualtotalprice" value="{{ $cart->totalPrice }}">
-                  <h4 class="right bold">মোট পরিশোধনীয় মূল্যঃ ¥ <span id="totalPrice">{{ $cart->totalPrice }}</span></h4><br/>
+                  <h4 class="right bold">Total Payable Price: ¥ <span id="totalPrice">{{ $cart->totalPrice }}</span></h4><br/>
                 </li>
               </ul>
 
