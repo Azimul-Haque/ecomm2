@@ -1,6 +1,6 @@
 @extends('layouts.index')
 
-@section('title', 'Al Amana Halal & Global Food | We provid Halal Food for you')
+@section('title', 'Al Amana Halal & Global Food | We provide Halal Food for you')
 
 @section('css')
   <script type="text/javascript" src="{{ asset('vendor/hcode/js/jquery.min.js') }}"></script>
