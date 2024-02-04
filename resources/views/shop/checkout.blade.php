@@ -39,11 +39,11 @@
       <div class="container">
         <div class="row">
           <div class="col-md-4">
-            <h2>ক্রেতার নামঃ {{ Auth::user()->name }}</h2>
-            আইডিঃ {{ Auth::user()->code }}<br/>
-            যোগাযোগের নম্বরঃ {{ Auth::user()->phone }}<br/>
-            ইমেইলঃ {{ Auth::user()->email }}<br/>
-            <big>অর্জিত ব্যালেন্সঃ <b>৳ {{ Auth::user()->points }}</b></big>
+            <h2>Customer: {{ Auth::user()->name }}</h2>
+            ID: {{ Auth::user()->code }}<br/>
+            Contact: {{ Auth::user()->phone }}<br/>
+            Email: {{ Auth::user()->email }}<br/>
+            <big>Earned  <b>৳ {{ Auth::user()->points }}</b></big>
             <br/><br/>
           </div>
           <div class="col-md-8">
