@@ -1,6 +1,6 @@
 @extends('adminlte::master')
 
-@section('title', 'Reset Password | LOYAL অভিযাত্রী')
+@section('title', 'Reset Password | Al Amana Halal & Global Food')
 
 @section('adminlte_css')
     <link rel="stylesheet" href="{{ asset('vendor/adminlte/css/auth.css') }}">
