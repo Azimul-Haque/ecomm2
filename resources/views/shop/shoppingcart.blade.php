@@ -96,13 +96,13 @@
                                     $("#productItemListItem{{ $product['item']['id'] }}").fadeOut("slow");
                                   }
                                   var itemTotalPrice = $("#itemTotalPrice{{ $product['item']['id'] }}").text();
-                                  itemTotalPrice = parseInt(itemTotalPrice.replace("মোটঃ ¥ ", "")) - {{ $product['item']['price'] }};
-                                  itemTotalPrice = "মোটঃ ¥ " + itemTotalPrice;
+                                  itemTotalPrice = parseInt(itemTotalPrice.replace("Total: ¥ ", "")) - {{ $product['item']['price'] }};
+                                  itemTotalPrice = "Total: ¥ " + itemTotalPrice;
                                   $("#itemTotalPrice{{ $product['item']['id'] }}").text(itemTotalPrice);
 
                                   var totalPriceGross = $("#totalPriceGross").text();
-                                  totalPriceGross = parseInt(totalPriceGross.replace("মোট মূল্যঃ ¥ ", "")) - {{ $product['item']['price'] }};
-                                  totalPriceGross = "মোট মূল্যঃ ¥ " + totalPriceGross;
+                                  totalPriceGross = parseInt(totalPriceGross.replace("Total Price: ¥ ", "")) - {{ $product['item']['price'] }};
+                                  totalPriceGross = "Total Price: ¥ " + totalPriceGross;
                                   $("#totalPriceGross").text(totalPriceGross);
                                 }
                             });
@@ -130,13 +130,13 @@
                                   var itemQtyInBag = parseInt($("#itemQtyInBag{{ $product['item']['id'] }}").text()) + 1;
                                   $("#itemQtyInBag{{ $product['item']['id'] }}").text(itemQtyInBag);
                                   var itemTotalPrice = $("#itemTotalPrice{{ $product['item']['id'] }}").text();
-                                  itemTotalPrice = parseInt(itemTotalPrice.replace("মোটঃ ¥ ", "")) + {{ $product['item']['price'] }};
-                                  itemTotalPrice = "মোটঃ ¥ " + itemTotalPrice;
+                                  itemTotalPrice = parseInt(itemTotalPrice.replace("Total: ¥ ", "")) + {{ $product['item']['price'] }};
+                                  itemTotalPrice = "Total: ¥ " + itemTotalPrice;
                                   $("#itemTotalPrice{{ $product['item']['id'] }}").text(itemTotalPrice);
 
                                   var totalPriceGross = $("#totalPriceGross").text();
-                                  totalPriceGross = parseInt(totalPriceGross.replace("মোট মূল্যঃ ¥ ", "")) + {{ $product['item']['price'] }};
-                                  totalPriceGross = "মোট মূল্যঃ ¥ " + totalPriceGross;
+                                  totalPriceGross = parseInt(totalPriceGross.replace("Total Price: ¥ ", "")) + {{ $product['item']['price'] }};
+                                  totalPriceGross = "Total Price: ¥ " + totalPriceGross;
                                   $("#totalPriceGross").text(totalPriceGross);
                                 }
                             });
@@ -150,7 +150,7 @@
                 <div class="row">
                   <div class="col-md-8"></div>
                   <div class="col-md-2">
-                    <strong style="float: right;" id="totalPriceGross">মোট মূল্যঃ ¥ {{ $totalPrice }}</strong>
+                    <strong style="float: right;" id="totalPriceGross">Total Price: ¥ {{ $totalPrice }}</strong>
                   </div>
                   <div class="col-md-2">
                   </div>
