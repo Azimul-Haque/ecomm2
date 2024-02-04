@@ -1,6 +1,6 @@
 @extends('layouts.index')
 
-@section('title', 'Profile | LOYAL অভিযাত্রী')
+@section('title', 'Profile | Al Amana Halal & Global Food')
 
 @section('css')
   <style type="text/css">
