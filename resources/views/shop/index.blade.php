@@ -68,7 +68,7 @@
                   {{-- <span class="margin-five no-margin-top display-block letter-spacing-2">EST. 2018</span> --}}
                   <h2>Al Amana Halal & Global Food</h2>
                   <p class="text-med width-90 center-col margin-seven no-margin-bottom">
-                    আপনার প্রয়োজন শুধু বলুন, আমরা পৌঁছে যাবো আপনার দরজায়...
+                    We provid Halal Food for you...
                   </p>
               </div>
           </div>
