@@ -101,7 +101,7 @@
           template: {
             type: "custom",
             method: function(value, item) {
-              return "<div style='overflow: auto;'>"+value + " - <span style='color:gray;'>৳ "+item.price+"</span><img src='/images/product-images/" + item.imagepath + "' style='height:50px;width:auto;float:right;'/></div>";
+              return "<div style='overflow: auto;'>"+value + " - <span style='color:gray;'>¥ "+item.price+"</span><img src='/images/product-images/" + item.imagepath + "' style='height:50px;width:auto;float:right;'/></div>";
             }
           },
 
