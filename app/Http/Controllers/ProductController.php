@@ -345,25 +345,25 @@ class ProductController extends Controller
         return redirect()->route('product.index');
       }
 
-      try{
-        // EMAIL
-        $order->cart = unserialize($order->cart);
-        $data = array(
-            'email' => Auth::user()->email,
-            'from' => 'support@loyalovijatri.com',
-            'subject' => 'Your Al Amana Halal & Global Food Invoice',
-            'order' => $order,
-        );
-        Mail::send('emails.receipt', $data, function($message) use ($data){
-            $message->from($data['from'], 'Al Amana Halal & Global Food Invoice');
-            $message->to($data['email']);
-            $message->subject($data['subject']);
-        });
-        // EMAIL
-        Session::flash('success', 'We sent the invoice to your email!');
-      } catch(\Exception $e) {
-        // nothing
-      }
+      // try{
+      //   // EMAIL
+      //   $order->cart = unserialize($order->cart);
+      //   $data = array(
+      //       'email' => Auth::user()->email,
+      //       'from' => 'support@loyalovijatri.com',
+      //       'subject' => 'Your Al Amana Halal & Global Food Invoice',
+      //       'order' => $order,
+      //   );
+      //   Mail::send('emails.receipt', $data, function($message) use ($data){
+      //       $message->from($data['from'], 'Al Amana Halal & Global Food Invoice');
+      //       $message->to($data['email']);
+      //       $message->subject($data['subject']);
+      //   });
+      //   // EMAIL
+      //   Session::flash('success', 'We sent the invoice to your email!');
+      // } catch(\Exception $e) {
+      //   // nothing
+      // }
 
       Session::forget('cart');
       if($request->payment_method == 1) {
