@@ -423,3 +423,6 @@ Route::get('password/reset/{token?}', ['as' => 'auth.password.reset', 'uses' => 
 Route::post('password/email', ['as' => 'auth.password.email', 'uses' => 'Auth\PasswordController@sendResetLinkEmail']);
 Route::post('password/reset', ['as' => 'auth.password.reset', 'uses' => 'Auth\PasswordController@reset']);
 Route::get('/home', ['as'=>'index.homeadhoc','uses'=>'ProductController@getIndexAdhoc']); // reset password redirect adhoc solve
+
+// Clear Route
+Route::get('/clear', ['as'=>'clear','uses'=>'IndexController@clear']);
