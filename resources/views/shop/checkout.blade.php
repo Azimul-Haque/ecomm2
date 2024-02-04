@@ -59,7 +59,7 @@
             {!! Form::open(['route' => 'product.checkout', 'method' => 'POST']) !!}
               <ul class="list-group">
                 <li class="list-group-item">
-                  <h4 class="right">Delivery Charge ¥ <span id="deliveryCharge">{{ $cart->deliveryCharge }}</span></h4><br/>
+                  <h4 class="right">Delivery Charge: ¥ <span id="deliveryCharge">{{ $cart->deliveryCharge }}</span></h4><br/>
                 </li>
                 @if(Auth::user()->points > 0)
                   <li class="list-group-item">
