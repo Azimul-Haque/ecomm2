@@ -55,10 +55,10 @@
                     {!! Form::label('password_confirmation', 'Confirm Password') !!}
                     {!! Form::password('password_confirmation' , array('class' => 'form-control', 'required' => '')) !!}
 
-                    {!! Form::label('captcha', 'ক্যাপচা') !!}
+                    {!! Form::label('captcha', 'Captcha') !!}
                     {!! app('captcha')->display() !!}
 
-                    {!! Form::submit('রেজিস্টার', array('class' => 'highlight-button btn btn-block btn-small checkout-btn xs-width-100 xs-text-center', 'style' => 'margin-top:20px;')) !!}
+                    {!! Form::submit('Register', array('class' => 'highlight-button btn btn-block btn-small checkout-btn xs-width-100 xs-text-center', 'style' => 'margin-top:20px;')) !!}
                   {!! Form::close() !!}
                 </div>
               </div>
