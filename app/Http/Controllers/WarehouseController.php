@@ -20,6 +20,7 @@ use Session;
 use Auth;
 use View;
 use PDF;
+use \setasign\Fpdi\Fpdi;
 use Purifier;
 
 class WarehouseController extends Controller
