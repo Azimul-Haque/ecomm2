@@ -35,11 +35,11 @@
         <div class="row">
           <div class="col-md-4 col-md-offset-4">
             <div class="login-box">
-              <h1 style="text-align: center">লগইন করুন</h1>
+              <h1 style="text-align: center">Login</h1>
               <form action="{{ route('user.login') }}" method="POST">
                 {{ csrf_field() }}
                 <div class="form-group">
-                  <label for="phoneoremail">ইমেইল অথবা ফোন নাম্বার</label>
+                  <label for="phoneoremail">Email or Phone Number</label>
                   <input class="form-control" type="text" id="phoneoremail" name="phoneoremail">
                 </div>
                 <div class="form-group">
