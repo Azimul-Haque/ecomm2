@@ -488,7 +488,7 @@ class WarehouseController extends Controller
       $order = Order::where('payment_id', $payment_id)->first();
       $order->cart = unserialize($order->cart);
       // dd($order->user);
-      $pdf = PDF::stream('pdf.receipt', ['order' => $order]);
+      $pdf = PDF::loadView('pdf.receipt', ['order' => $order]);
       $fileName = 'Receipt_'. $payment_id .'.pdf';
       return $pdf->stream($fileName);
     }
