@@ -4,7 +4,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <style>
   body {
-    font-family: 'kalpurush', sans-serif;
+    font-family: '.', sans-serif;
   }
 
   table {
@@ -13,7 +13,7 @@
   }
   th, td{
     padding: 7px;
-    font-family: 'kalpurush', sans-serif;
+    font-family: '.', sans-serif;
     font-size: 15px;
   }
   .bordertable td, th {
@@ -47,7 +47,7 @@
   <table>
     <tr>
       <td class="calibri_normal">
-        Customer Name: <span style="font-family: 'kalpurush', sans-serif;">{{ $order->user->name }}</span><br/>
+        Customer Name: <span style="font-family: '.', sans-serif;">{{ $order->user->name }}</span><br/>
         Customer ID: {{ $order->user->code }}<br/>
         Contact No: {{ $order->user->phone }}<br/>
         Email Address: {{ $order->user->email }}<br/>
@@ -88,10 +88,10 @@
       <tr>
         <td colspan="3"></td>
         <td align="right" class="calibri_normal" style="line-height: 1.5em;">
-          SUBTOTAL <span style="font-family: 'kalpurush', sans-serif;">¥</span> {{ $order->cart->totalPrice - $order->cart->deliveryCharge + $order->cart->discount }}<br/>
-          Delivery Charge <span style="font-family: 'kalpurush', sans-serif;">¥</span> {{ $order->cart->deliveryCharge }}<br/>
-          Discount <span style="font-family: 'kalpurush', sans-serif;">¥</span> {{ $order->cart->discount }}<br/>
-          <big>TOTAL <span style="font-family: 'kalpurush', sans-serif;">¥</span> {{ $order->cart->totalPrice }}</big>
+          SUBTOTAL <span style="font-family: '.', sans-serif;">¥</span> {{ $order->cart->totalPrice - $order->cart->deliveryCharge + $order->cart->discount }}<br/>
+          Delivery Charge <span style="font-family: '.', sans-serif;">¥</span> {{ $order->cart->deliveryCharge }}<br/>
+          Discount <span style="font-family: '.', sans-serif;">¥</span> {{ $order->cart->discount }}<br/>
+          <big>TOTAL <span style="font-family: '.', sans-serif;">¥</span> {{ $order->cart->totalPrice }}</big>
         </td>
       </tr>
     </tbody>
