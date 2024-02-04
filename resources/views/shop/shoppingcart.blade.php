@@ -118,9 +118,9 @@
                                   console.log(response);
                                   if(response == 'success') {
                                     if($(window).width() > 768) {
-                                      toastr.success('{{ $product['item']['title'] }} এর এক ইউনিট পরিমাণ আপনার ব্যাগে যোগ করা হয়েছে।', 'সফল (SUCCESS)').css('width','400px');
+                                      toastr.success('{{ $product['item']['title'] }} One unit quantity of this has been added to your bag.', 'SUCCESS').css('width','400px');
                                     } else {
-                                      toastr.success('{{ $product['item']['title'] }} এর এক ইউনিট পরিমাণ আপনার ব্যাগে যোগ করা হয়েছে।', 'সফল (SUCCESS)').css('width', ($(window).width()-25)+'px');
+                                      toastr.success('{{ $product['item']['title'] }} One unit quantity of this has been added to your bag.', 'SUCCESS').css('width', ($(window).width()-25)+'px');
                                     }
                                   }
                                   var totalInBag = parseInt($("#totalInBag").text()) + 1;
