@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'title' => 'Al Amana Halal & Global Food',
+    'title' => 'Al Amana',
 
     'title_prefix' => '',
 
