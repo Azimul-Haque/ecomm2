@@ -369,7 +369,7 @@ class ProductController extends Controller
       if($request->payment_method == 1) {
         Session::flash('success', 'আপনার পেমেন্ট মেথড বিকাশ, আমাদের একজন প্রতিনিধি আপনাকে ফোন করে বিকাশ নম্বর প্রদান করবেন।');
       }
-      Session::flash('success', 'আপনার অর্ডারটি নিশ্চিত করা হয়েছে। শীঘ্রই আমাদের একজন প্রতিনিধি আপনার সাথে যোগাযোগ করবেন। ধন্যবাদ।');
+      Session::flash('success', 'Your order has been confirmed. A representative of ours will contact you shortly. thank you');
       return redirect()->route('user.profile', Auth::user()->unique_key);
     }
 
