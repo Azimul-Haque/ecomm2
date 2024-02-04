@@ -15,7 +15,7 @@
 @endsection
 
 @section('content_header')
-    <h1>প্রোফাইল</h1>
+    <h1>Profile</h1>
 @stop
 
 @section('content')
@@ -25,7 +25,7 @@
           <div class="row">
               <div class="col-lg-8 col-md-7 col-sm-12 wow fadeInUp" data-wow-duration="300ms">
                   <!-- page title -->
-                  <h1 class="black-text">প্রোফাইলঃ {{ Auth::user()->name }}</h1>
+                  <h1 class="black-text">Profile {{ Auth::user()->name }}</h1>
                   <!-- end page title -->
               </div>
               <div class="col-lg-4 col-md-5 col-sm-12 breadcrumb text-uppercase wow fadeInUp xs-display-none" data-wow-duration="600ms">
