@@ -1,6 +1,6 @@
 @extends('layouts.index')
 
-@section('title', 'About Us | LOYAL অভিযাত্রী')
+@section('title', 'About Us | Al Amana Halal & Global Food')
 
 @section('css')
   <style type="text/css">
@@ -48,7 +48,7 @@
                             You shall find here the best care products for your hair and skin, smartest available gadgets and
                             tasty treats to your sweet teeth. At a reasonable price, we assure you loyalty in our service and
                             authenticity in our products.<br/><br/>
-                            So, start your journey with <b>LOYAL অভিযাত্রী</b> and we will keep providing you with the best
+                            So, start your journey with <b>Al Amana Halal & Global Food</b> and we will keep providing you with the best
                             products available, in shaa Allah!
                           </p>
                       </div>
