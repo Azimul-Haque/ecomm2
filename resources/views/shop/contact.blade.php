@@ -35,7 +35,7 @@
                     <div class="row">
                         <div class="col-md-6">
                             <p class="text-med black-text letter-spacing-1 margin-ten no-margin-bottom text-uppercase font-weight-600 xs-margin-top-five">Email</p>
-                            <p><i class="fa fa-envelope black-text"></i> <a href="mailto:sadekshiblu090@gmail.com">sadekshiblu090@gmail.com</a></p>
+                            <p><i class="fa fa-envelope black-text"></i> <a href="mailto:sadekshiblu080@gmail.com">sadekshiblu080@gmail.com</a></p>
                         </div>
                         <div class="col-md-6 xs-text-center">
                             <p class="text-med black-text letter-spacing-1 margin-ten no-margin-bottom text-uppercase font-weight-600 xs-margin-top-five">Contact No.</p>
