@@ -14,9 +14,9 @@
                     {{ $product->title }}
                   </a> 
                   @if($product->oldprice > 0)
-                    <del>৳ {{ $product->oldprice }}</del>
+                    <del>¥ {{ $product->oldprice }}</del>
                   @endif
-                  ৳ {{ $product->price }}
+                  ¥ {{ $product->price }}
                 </div>
             </li>
           @endforeach
