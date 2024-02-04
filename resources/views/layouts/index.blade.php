@@ -202,7 +202,7 @@
                 <div class="row margin-three">
                     <!-- copyright -->
                     <div class="col-md-6 col-sm-6 col-xs-12 gray-text text-left letter-spacing-1 xs-text-center xs-margin-bottom-one">
-                        &copy; {{ date('Y') }} <a href="http://loencebd.com/" style="text-decoration: none;" class="gray-text">Loence Bangladesh</a>.
+                        &copy; {{ date('Y') }} <a href="http://loencebd.com/" style="text-decoration: none;" class="gray-text">App Lab Bangladesh</a>.
                     </div>
                     <!-- end copyright -->
                     <!-- logo -->
