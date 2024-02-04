@@ -36,37 +36,6 @@
 <body>
   
 
-  <table class="bordertable">
-    <thead>
-      <tr>
-        <th class="calibri_normal" width="40%">Product</th>
-        <th class="calibri_normal">Quantity</th>
-        <th class="calibri_normal">Price</th>
-        <th class="calibri_normal" width="30%">Total</th>
-      </tr>
-    </thead>
-    <tbody>
-      @foreach($order->cart->items as $item)
-      <tr>
-        <td>{{ $item['item']['title'] }}</td>
-        <td align="center" class="calibri_normal">{{ $item['qty'] }}</td>
-        <td align="right">¥ <span class="calibri_normal">{{ $item['item']['price'] }}</span></td>
-        <td align="right">¥ <span class="calibri_normal">{{ $item['price'] }}</span></td>
-      </tr>
-      @endforeach
-      <tr>
-        <td colspan="3"></td>
-        <td align="right" class="calibri_normal" style="line-height: 1.5em;">
-          SUBTOTAL <span style="font-family: 'kalpurush', sans-serif;">¥</span> {{ $order->cart->totalPrice - $order->cart->deliveryCharge + $order->cart->discount }}<br/>
-          Delivery Charge <span style="font-family: 'kalpurush', sans-serif;">¥</span> {{ $order->cart->deliveryCharge }}<br/>
-          Discount <span style="font-family: 'kalpurush', sans-serif;">¥</span> {{ $order->cart->discount }}<br/>
-          <big>TOTAL <span style="font-family: 'kalpurush', sans-serif;">¥</span> {{ $order->cart->totalPrice }}</big>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-  <br/><br/><br/>
-
   <h3 align="center" style="color: #100569; font-family: Calibri;">
     Total in words: {{ convertNumberToWord($order->cart->totalPrice) }} Taka Only
   </h3><br/>
