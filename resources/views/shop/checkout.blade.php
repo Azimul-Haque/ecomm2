@@ -92,7 +92,7 @@
               {!! Form::text('address', Auth::user()->address, array('class' => 'form-control')) !!}<br/>
 
               <div class="row">
-                <div class="col-md-4">
+                {{-- <div class="col-md-4">
                   <label for="deliverylocation">Delivery Location</label>
                   <select id="deliverylocation" name="deliverylocation" class="form-control" required="" onchange="changeDeliveryLocation()">
                     <option value="" selected="" disabled="">Select Location</option>
@@ -101,7 +101,7 @@
                     <option value="2">Outside of Dhaka</option>
                   </select>
                   <span id="freePickUpPoint"></span>
-                </div>
+                </div> --}}
                 <div class="col-md-4">
                   <label for="payment_method">Payment Method</label>
                   <select id="payment_method" name="payment_method" class="form-control" required="">
