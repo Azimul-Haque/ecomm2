@@ -89,9 +89,9 @@
                                     console.log(response);
                                     if(response == 'success') {
                                       if($(window).width() > 768) {
-                                        toastr.success('{{ $product->title }} আপনার ব্যাগে যুক্ত করা হয়েছে।', 'সফল (SUCCESS)').css('width','400px');
+                                        toastr.success('{{ $product->title }} added to your bag', 'SUCCESS').css('width','400px');
                                       } else {
-                                        toastr.success('{{ $product->title }} আপনার ব্যাগে যুক্ত করা হয়েছে।', 'সফল (SUCCESS)').css('width', ($(window).width()-25)+'px');
+                                        toastr.success('{{ $product->title }} added to your bag', 'SUCCESS').css('width', ($(window).width()-25)+'px');
                                       }
                                     }
                                     var totalInBag = parseInt($("#totalInBag").text());
@@ -176,7 +176,7 @@
             var response = data;
             console.log(response);
             if(response == 'success') {
-              toastr.success($title+' added to your bag', 'সফল (SUCCESS)').css('width','400px');
+              toastr.succeadded to your bag', 'SUCCESS').css('width','400px');
             }
             var totalInBag = parseInt($("#totalInBag").text());
             if(isNaN(totalInBag)) {
