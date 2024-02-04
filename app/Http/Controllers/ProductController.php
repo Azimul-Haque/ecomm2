@@ -324,21 +324,21 @@ class ProductController extends Controller
         $order->payment_id = $nowdatetime->format('YmdHis') . random_string(5);
         Auth::user()->orders()->save($order);
 
-        if($request->fcode && $request->fcode != Auth::user()->code) {
-          $friend = User::where('code', $request->fcode)->first();
-          if(!empty($friend)) {
-            $setting = Setting::findOrFail(1);
-            $friend->points = $friend->points + ($order->totalprofit * ($setting->give_away_percentage / 100)); // ei 2% change hobe, dynamically
-            $friend->save();
+        // if($request->fcode && $request->fcode != Auth::user()->code) {
+        //   $friend = User::where('code', $request->fcode)->first();
+        //   if(!empty($friend)) {
+        //     $setting = Setting::findOrFail(1);
+        //     $friend->points = $friend->points + ($order->totalprofit * ($setting->give_away_percentage / 100)); // ei 2% change hobe, dynamically
+        //     $friend->save();
 
-            $friendspoint = $order->totalprofit * ($setting->give_away_percentage / 100);
-            Session::flash('info', 'আপনার এ অর্ডারটি থেকে আপনার বন্ধু ' . $friend->name . '-এর একাউন্টে মোট ' . $friendspoint . ' পয়েন্ট যোগ হয়েছে!');
-          } else {
-            Session::flash('warning', 'আপনার বন্ধুর ইউজার আইডিটি সঠিক নয়! ধন্যবাদ।');
-          }  
-        } elseif($request->fcode == Auth::user()->code){
-          Session::flash('warning', 'আপনি নিজের আইডিকে রেফার করতে পারবেন না! ধন্যবাদ।');
-        }
+        //     $friendspoint = $order->totalprofit * ($setting->give_away_percentage / 100);
+        //     Session::flash('info', 'আপনার এ অর্ডারটি থেকে আপনার বন্ধু ' . $friend->name . '-এর একাউন্টে মোট ' . $friendspoint . ' পয়েন্ট যোগ হয়েছে!');
+        //   } else {
+        //     Session::flash('warning', 'আপনার বন্ধুর ইউজার আইডিটি সঠিক নয়! ধন্যবাদ।');
+        //   }  
+        // } elseif($request->fcode == Auth::user()->code){
+        //   Session::flash('warning', 'আপনি নিজের আইডিকে রেফার করতে পারবেন না! ধন্যবাদ।');
+        // }
       } catch(\Exception $e) {
         Session::flash('warning', 'There was a problem with your confirmation. Please try again.');
         return redirect()->route('product.index');
