@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'title' => 'LOYAL অভিযাত্রী',
+    'title' => 'Al Amana Halal & Global Food',
 
     'title_prefix' => '',
 
@@ -30,9 +30,9 @@ return [
     |
     */
 
-    'logo' => '<b>LOYAL</b>অভিযাত্রী',
+    'logo' => '<b>Al Amana</b>Halal & Global Food',
 
-    'logo_mini' => '<b>L</b>অ',
+    'logo_mini' => '<b>A</b>A',
 
     /*
     |--------------------------------------------------------------------------
