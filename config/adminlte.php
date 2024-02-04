@@ -30,7 +30,7 @@ return [
     |
     */
 
-    'logo' => '<b>Al Amana</b>Halal & Global Food',
+    'logo' => '<b>Al </b>Amana',
 
     'logo_mini' => '<b>A</b>A',
 
