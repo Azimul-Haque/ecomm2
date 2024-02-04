@@ -46,7 +46,7 @@
                       <div class="row">
                         <div class="col-md-6 col-sm-6 col-xs-6">
                           <strong>{{ $product['item']['title'] }}</strong> / 
-                          <span class="label label-success">৳ {{ $product['item']['price'] }}</span>
+                          <span class="label label-success">¥ {{ $product['item']['price'] }}</span>
                           <img src="{{ asset('images/product-images/'.$product['item']['productimages']->first()->image) }}" style="max-height: 40px; border:1px solid #777">
                         </div>
                         <div class="col-md-6 col-sm-6 col-xs-6">
@@ -59,7 +59,7 @@
                               </div>
                             </div>
                             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 item-center">
-                              <span id="itemTotalPrice{{ $product['item']['id'] }}" class="">মোটঃ ৳ {{ $product['price'] }}</span>
+                              <span id="itemTotalPrice{{ $product['item']['id'] }}" class="">মোটঃ ¥ {{ $product['price'] }}</span>
                             </div>
                             <div class="col-lg-2 col-md-3 col-sm-3 col-xs-12 item-center">
                               <a class="btn btn-link btn-sm" class="right" href="{{ route('product.removeitem', ['id' => $product['item']['id']]) }}" data-toggle="tooltip" data-placement="bottom" title="এই আইটেমটি তালিকা থেকে বাদ দিতে হলে এখানে ক্লিক করুন"><i class="fa fa-times black-text" aria-hidden="true"></i></a>
@@ -96,13 +96,13 @@
                                     $("#productItemListItem{{ $product['item']['id'] }}").fadeOut("slow");
                                   }
                                   var itemTotalPrice = $("#itemTotalPrice{{ $product['item']['id'] }}").text();
-                                  itemTotalPrice = parseInt(itemTotalPrice.replace("মোটঃ ৳ ", "")) - {{ $product['item']['price'] }};
-                                  itemTotalPrice = "মোটঃ ৳ " + itemTotalPrice;
+                                  itemTotalPrice = parseInt(itemTotalPrice.replace("মোটঃ ¥ ", "")) - {{ $product['item']['price'] }};
+                                  itemTotalPrice = "মোটঃ ¥ " + itemTotalPrice;
                                   $("#itemTotalPrice{{ $product['item']['id'] }}").text(itemTotalPrice);
 
                                   var totalPriceGross = $("#totalPriceGross").text();
-                                  totalPriceGross = parseInt(totalPriceGross.replace("মোট মূল্যঃ ৳ ", "")) - {{ $product['item']['price'] }};
-                                  totalPriceGross = "মোট মূল্যঃ ৳ " + totalPriceGross;
+                                  totalPriceGross = parseInt(totalPriceGross.replace("মোট মূল্যঃ ¥ ", "")) - {{ $product['item']['price'] }};
+                                  totalPriceGross = "মোট মূল্যঃ ¥ " + totalPriceGross;
                                   $("#totalPriceGross").text(totalPriceGross);
                                 }
                             });
@@ -130,13 +130,13 @@
                                   var itemQtyInBag = parseInt($("#itemQtyInBag{{ $product['item']['id'] }}").text()) + 1;
                                   $("#itemQtyInBag{{ $product['item']['id'] }}").text(itemQtyInBag);
                                   var itemTotalPrice = $("#itemTotalPrice{{ $product['item']['id'] }}").text();
-                                  itemTotalPrice = parseInt(itemTotalPrice.replace("মোটঃ ৳ ", "")) + {{ $product['item']['price'] }};
-                                  itemTotalPrice = "মোটঃ ৳ " + itemTotalPrice;
+                                  itemTotalPrice = parseInt(itemTotalPrice.replace("মোটঃ ¥ ", "")) + {{ $product['item']['price'] }};
+                                  itemTotalPrice = "মোটঃ ¥ " + itemTotalPrice;
                                   $("#itemTotalPrice{{ $product['item']['id'] }}").text(itemTotalPrice);
 
                                   var totalPriceGross = $("#totalPriceGross").text();
-                                  totalPriceGross = parseInt(totalPriceGross.replace("মোট মূল্যঃ ৳ ", "")) + {{ $product['item']['price'] }};
-                                  totalPriceGross = "মোট মূল্যঃ ৳ " + totalPriceGross;
+                                  totalPriceGross = parseInt(totalPriceGross.replace("মোট মূল্যঃ ¥ ", "")) + {{ $product['item']['price'] }};
+                                  totalPriceGross = "মোট মূল্যঃ ¥ " + totalPriceGross;
                                   $("#totalPriceGross").text(totalPriceGross);
                                 }
                             });
@@ -150,7 +150,7 @@
                 <div class="row">
                   <div class="col-md-8"></div>
                   <div class="col-md-2">
-                    <strong style="float: right;" id="totalPriceGross">মোট মূল্যঃ ৳ {{ $totalPrice }}</strong>
+                    <strong style="float: right;" id="totalPriceGross">মোট মূল্যঃ ¥ {{ $totalPrice }}</strong>
                   </div>
                   <div class="col-md-2">
                   </div>
