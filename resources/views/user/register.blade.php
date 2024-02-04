@@ -46,7 +46,7 @@
                     {!! Form::label('email', 'Email') !!}
                     {!! Form::text('email', null, array('class' => 'form-control', 'required' => '')) !!}
 
-                    {!! Form::label('address', 'পণ্য প্রেরণের ঠিকানা') !!}
+                    {!! Form::label('address', 'Delivery Address') !!}
                     {!! Form::textarea('address', null, array('class' => 'form-control address', 'required' => '')) !!}
 
                     {!! Form::label('password', 'পাসওয়ার্ড') !!}
