@@ -35,15 +35,15 @@
           <div class="row">
               <div class="col-md-6 col-md-offset-3">
                 <div class="login-box">
-                  <h1 style="text-align: center">রেজিস্টার করুন</h1>
+                  <h1 style="text-align: center">Register</h1>
                   {!! Form::open(['route' => 'user.register', 'method' => 'POST']) !!}
-                    {!! Form::label('name', 'নাম') !!}
+                    {!! Form::label('name', 'Name') !!}
                     {!! Form::text('name', null, array('class' => 'form-control', 'required' => '')) !!}
 
-                    {!! Form::label('phone', 'মোবাইল নম্বর') !!}
+                    {!! Form::label('phone', 'Phone No') !!}
                     {!! Form::text('phone', null, array('class' => 'form-control', 'required' => '', "onkeypress" => "if(this.value.length==11) return false;")) !!}{{-- onkeypress="if(this.value.length==11) return false;" --}}
 
-                    {!! Form::label('email', 'ইমেইল ঠিকানা') !!}
+                    {!! Form::label('email', 'Email') !!}
                     {!! Form::text('email', null, array('class' => 'form-control', 'required' => '')) !!}
 
                     {!! Form::label('address', 'পণ্য প্রেরণের ঠিকানা') !!}
