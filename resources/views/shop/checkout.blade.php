@@ -66,9 +66,8 @@
                     <h4 class="right">
                       <table style="float: right;">
                         <tr>
-                          <td><label for="useearnedbalance" style="margin-right: 10px;">অর্জিত ব্যালেন্স থেকে পরিশোধঃ ¥ </label></td>
+                          <td><label for="useearnedbalance" style="margin-right: 10px;">Pay from earned balance: ¥ </label></td>
                           <td>
-                            
                               @if($cart->totalPrice > Auth::user()->points)
                                 <input type="number" name="useearnedbalance" id="useearnedbalance" max="{{ Auth::user()->points }}" min="0" step=".01" class="form-control" value="0" onchange="useEarnedBalance()">
                               @else
