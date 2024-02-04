@@ -23,7 +23,7 @@
   </style>
   <meta property="og:image" content="{{ asset('images/product-images/'.$product->productimages->first()->image) }}" />
   <meta property="og:title" content="{{ $product->title }} | Al Amana Halal & Global Food"/>
-  <meta property="og:description" content="৳ {{ $product->price }} | {{ substr(strip_tags($product->description), 0, 200) }}" />
+  <meta property="og:description" content="¥ {{ $product->price }} | {{ substr(strip_tags($product->description), 0, 200) }}" />
   <meta property="og:type" content="article"/>
   <meta property="og:url" content="{{ Request::url() }}" />
   <meta property="og:site_name" content="Ecomm Name">
@@ -141,9 +141,9 @@
                         <!-- end product short description -->
                         <span class="price black-text title-small">
                           @if($product->oldprice > 0)
-                            <del>৳ {{ $product->oldprice }}</del>
+                            <del>¥ {{ $product->oldprice }}</del>
                           @endif
-                          ৳ {{ $product->price }}
+                          ¥ {{ $product->price }}
                         </span>
                         <div class="col-md-3 col-sm-3 no-padding-left margin-five">
                             <div class="select-style med-input xs-med-input shop-shorting-details no-border-round">
@@ -321,9 +321,9 @@
                                 <span class="product-name text-uppercase"><a href="{{ route('product.getsingleproduct', [$relproduct->id, generate_token(100)]) }}">{{ $relproduct->title }}</a></span>
                                 <span class="price black-text">
                                   @if($relproduct->oldprice > 0)
-                                  <del>৳ {{ $relproduct->oldprice }}</del>
+                                  <del>¥ {{ $relproduct->oldprice }}</del>
                                   @endif
-                                  ৳ {{ $relproduct->price }}
+                                  ¥ {{ $relproduct->price }}
                                 </span>
                                 {{-- <div class="quick-buy">
                                     <div class="product-share">
