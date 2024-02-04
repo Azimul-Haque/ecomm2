@@ -7,7 +7,7 @@
         @yield('title', config('adminlte.title', 'AdminLTE 2'))
         @yield('title_postfix', config('adminlte.title_postfix', ''))
     </title>
-    <meta name="description" content="আপনার প্রয়োজন শুধু বলুন, আমরা পৌঁছে যাবো আপনার দরজায়। Developed by A. H. M. Azimul Haque.">
+    <meta name="description" content="Al Amana Halal & Global Food provides you halal food. Developed by A. H. M. Azimul Haque.">
     <meta name="keywords" content="Al Amana Halal & Global Food, Al Amana Global Co. Ltd">
     <!-- favicon -->
     <link rel="shortcut icon" href="{{ asset('images/favicon.png') }}">
