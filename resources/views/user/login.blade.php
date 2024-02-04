@@ -13,7 +13,7 @@
           <div class="row">
               <div class="col-lg-8 col-md-7 col-sm-12 wow fadeInUp" data-wow-duration="300ms">
                   <!-- page title -->
-                  <h1 class="black-text">লগইন</h1>
+                  <h1 class="black-text">Login</h1>
                   <!-- end page title -->
               </div>
               <div class="col-lg-4 col-md-5 col-sm-12 breadcrumb text-uppercase wow fadeInUp xs-display-none" data-wow-duration="600ms">
