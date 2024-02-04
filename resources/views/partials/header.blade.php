@@ -76,12 +76,12 @@
               <li><a href="{{ route('user.profile') }}"><i class="fa fa-user" aria-hidden="true"></i> Profile</a></li>
               <li><a href="#"><i class="fa fa-ticket" aria-hidden="true"></i> User ID: <b>{{ Auth::user()->code }}</b></a></li>
               <li role="separator" class="divider"></li>
-              <li><a href="{{ route('user.logout') }}"><i class="fa fa-sign-out" aria-hidden="true"></i> লগ আউট</a></li>
+              <li><a href="{{ route('user.logout') }}"><i class="fa fa-sign-out" aria-hidden="true"></i> Log out</a></li>
             </ul>
           </li>
         @else
-          <li><a href="{{ route('user.login') }}">লগইন</a></li>
-          <li><a href="{{ route('user.register') }}">রেজিস্টার</a></li>
+          <li><a href="{{ route('user.login') }}">Login</a></li>
+          <li><a href="{{ route('user.register') }}">Register</a></li>
         @endif
       </ul>
       <form accept-charset="UTF-8" class="search-in-navbar">
