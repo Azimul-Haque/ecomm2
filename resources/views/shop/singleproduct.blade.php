@@ -451,7 +451,7 @@
             var response = data;
             console.log(response);
             if(response == 'success') {
-              toastr.success($title+' Added to your bag!', 'সফল (SUCCESS)').css('width','400px');
+              toastr.success($title+' Added to your bag!', 'SUCCESS').css('width','400px');
             }
             var totalInBag = parseInt($("#totalInBag").text());
             if(isNaN(totalInBag)) {
