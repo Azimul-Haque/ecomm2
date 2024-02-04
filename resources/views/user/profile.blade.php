@@ -141,7 +141,7 @@
             <br/>
             <div class="panel panel-primary shadow-light">
               <div class="panel-heading">
-                <h4 class="panel-title">আপনার পূর্ববর্তী অর্ডারগুলো</h4>
+                <h4 class="panel-title">Your previous orders</h4>
               </div>
               <div class="panel-body">
                 <div class="panel-group" id="accordion">
