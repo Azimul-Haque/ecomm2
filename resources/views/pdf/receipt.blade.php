@@ -38,7 +38,7 @@
     <img src="{{ public_path('images/logo.png') }}" style="height: 80px; width: auto;">
     <br/>
     <span class="calibri_normal">Al Amana</span> Halal & Global Food<br/>
-    <small class="calibri_normal" style="font-size: 14px;">Email: SADEKSHIBLU090@gmail.com, Phone: +88 01315 85 25 63</small>
+    <small class="calibri_normal" style="font-size: 14px;">Email: sadekshiblu080@gmail.com, Phone: +88 01315 85 25 63</small>
   </h2>
   <h2 align="center" class="calibri_normal" style="color: #397736; border-bottom: 1px solid #397736;">
     INVOICE
@@ -104,7 +104,7 @@
 
   <h4 align="center" style="font-family: Calibri;">
     If you have any questions about this invoice, please contact<br/>
-    [080-9212-9030, SADEKSHIBLU090@gmail.com]
+    [080-9212-9030, sadekshiblu080@gmail.com]
   </h4>
   
 
