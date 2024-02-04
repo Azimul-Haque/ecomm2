@@ -81,17 +81,17 @@
       <tr>
         <td>{{ $item['item']['title'] }}</td>
         <td align="center" class="calibri_normal">{{ $item['qty'] }}</td>
-        <td align="right">৳ <span class="calibri_normal">{{ $item['item']['price'] }}</span></td>
-        <td align="right">৳ <span class="calibri_normal">{{ $item['price'] }}</span></td>
+        <td align="right">¥ <span class="calibri_normal">{{ $item['item']['price'] }}</span></td>
+        <td align="right">¥ <span class="calibri_normal">{{ $item['price'] }}</span></td>
       </tr>
       @endforeach
       <tr>
         <td colspan="3"></td>
         <td align="right" class="calibri_normal" style="line-height: 1.5em;">
-          SUBTOTAL <span style="font-family: 'kalpurush', sans-serif;">৳</span> {{ $order->cart->totalPrice - $order->cart->deliveryCharge + $order->cart->discount }}<br/>
-          Delivery Charge <span style="font-family: 'kalpurush', sans-serif;">৳</span> {{ $order->cart->deliveryCharge }}<br/>
-          Discount <span style="font-family: 'kalpurush', sans-serif;">৳</span> {{ $order->cart->discount }}<br/>
-          <big>TOTAL <span style="font-family: 'kalpurush', sans-serif;">৳</span> {{ $order->cart->totalPrice }}</big>
+          SUBTOTAL <span style="font-family: 'kalpurush', sans-serif;">¥</span> {{ $order->cart->totalPrice - $order->cart->deliveryCharge + $order->cart->discount }}<br/>
+          Delivery Charge <span style="font-family: 'kalpurush', sans-serif;">¥</span> {{ $order->cart->deliveryCharge }}<br/>
+          Discount <span style="font-family: 'kalpurush', sans-serif;">¥</span> {{ $order->cart->discount }}<br/>
+          <big>TOTAL <span style="font-family: 'kalpurush', sans-serif;">¥</span> {{ $order->cart->totalPrice }}</big>
         </td>
       </tr>
     </tbody>
