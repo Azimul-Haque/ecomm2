@@ -1,6 +1,6 @@
 @extends('layouts.index')
 
-@section('title', $product->title . ' | LOYAL অভিযাত্রী')
+@section('title', $product->title . ' | Al Amana Halal & Global Food')
 
 @section('css')
   <script type="text/javascript" src="{{ asset('vendor/hcode/js/jquery.min.js') }}"></script>
@@ -22,7 +22,7 @@
     }
   </style>
   <meta property="og:image" content="{{ asset('images/product-images/'.$product->productimages->first()->image) }}" />
-  <meta property="og:title" content="{{ $product->title }} | LOYAL অভিযাত্রী"/>
+  <meta property="og:title" content="{{ $product->title }} | Al Amana Halal & Global Food"/>
   <meta property="og:description" content="৳ {{ $product->price }} | {{ substr(strip_tags($product->description), 0, 200) }}" />
   <meta property="og:type" content="article"/>
   <meta property="og:url" content="{{ Request::url() }}" />
@@ -32,7 +32,7 @@
   <meta property="fb:app_id" content="163879201229487">
   <meta property="og:type" content="article">
   <!-- Open Graph - Article -->
-  <meta name="article:section" content="LOYAL অভিযাত্রী">
+  <meta name="article:section" content="Al Amana Halal & Global Food">
   <meta name="article:published_time" content="{{ $product->created_at }}">
   <meta name="article:author" content="Ecom">
   <meta name="article:tag" content="Product">
