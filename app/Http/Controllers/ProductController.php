@@ -438,7 +438,7 @@ class ProductController extends Controller
     {
       $article = Page::where('slug', $slug)->first();
       if(!$article) {
-        Session::flash('warning', 'এই পাতাটি এ মুহূর্তে অপ্রাপ্য!');
+        Session::flash('warning', 'This page is currently unavailable!');
         return abort(404);
       } 
       $recentproducts = Product::orderBy('id', 'desc')->get()->take(10);
