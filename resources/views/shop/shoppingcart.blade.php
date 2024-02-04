@@ -164,7 +164,7 @@
               <div class="col-md-10 col-md-offset-1">
                 <h2>
                   <center>
-                    আপনার বাজারের ব্যাগে কোন পণ্য নেই! আমাদের পণ্যগুলো ব্যাগে যোগ করে এই পেইজে আসুন। ধন্যবাদ।<br/><br/>
+                    There are no products in your bag! Visit this page by adding our products to your bag. thank you<br/><br/>
                     <a href="{{ route('product.index') }}" class="highlight-button btn btn-medium"><i class="fa fa-cart-plus"></i> পণ্য দেখুন</a>
                   </center>
                 </h2>
