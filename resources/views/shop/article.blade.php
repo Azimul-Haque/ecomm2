@@ -161,7 +161,7 @@
             var response = data;
             console.log(response);
             if(response == 'success') {
-              toastr.success($title+' আপনার ব্যাগে যুক্ত করা হয়েছে।', 'সফল (SUCCESS)').css('width','400px');
+              toastr.success($title+' added to your bag', 'SUCCESS').css('width','400px');
             }
             var totalInBag = parseInt($("#totalInBag").text());
             if(isNaN(totalInBag)) {
