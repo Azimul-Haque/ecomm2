@@ -42,7 +42,7 @@
                   <div class="big-text">
                     <p>Welcome to Al Amana Halal & Global Food!</p>
 
-                    <p>These terms and conditions outline the rules and regulations for the use of Al Amana Halal & Global Food's Website, located at http://loyalovijatri.com.</p>
+                    <p>These terms and conditions outline the rules and regulations for the use of Al Amana Halal & Global Food's Website, located at http://alamanahalalfood.com.</p>
 
                     <p>By accessing this website we assume you accept these terms and conditions. Do not continue to use Al Amana Halal & Global Food if you do not agree to take all of the terms and conditions stated on this page.</p>
 
