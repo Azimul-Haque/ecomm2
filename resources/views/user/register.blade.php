@@ -49,10 +49,10 @@
                     {!! Form::label('address', 'Delivery Address') !!}
                     {!! Form::textarea('address', null, array('class' => 'form-control address', 'required' => '')) !!}
 
-                    {!! Form::label('password', 'পাসওয়ার্ড') !!}
+                    {!! Form::label('password', 'Password') !!}
                     {!! Form::password('password', array('class' => 'form-control', 'required' => '')) !!}
 
-                    {!! Form::label('password_confirmation', 'পাসওয়ার্ড নিশ্চিত করুণ') !!}
+                    {!! Form::label('password_confirmation', 'Confirm Password') !!}
                     {!! Form::password('password_confirmation' , array('class' => 'form-control', 'required' => '')) !!}
 
                     {!! Form::label('captcha', 'ক্যাপচা') !!}
