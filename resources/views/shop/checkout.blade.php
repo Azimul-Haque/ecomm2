@@ -97,12 +97,12 @@
                   <select id="deliverylocation" name="deliverylocation" class="form-control" required="" onchange="changeDeliveryLocation()">
                     <option value="" selected="" disabled="">Select Location</option>
                     <option value="0">Inside Dhaka</option>
-                    <option value="1020">Free Pick-up Point</option> {{-- apatoto --}}
+                    <option value="1020">Free Pick-up Point</option>
                     <option value="2">Outside of Dhaka</option>
                   </select>
                   <span id="freePickUpPoint"></span>
                 </div> --}}
-                <div class="col-md-12">
+                <div class="col-md-4">
                   <label for="payment_method">Payment Method</label>
                   <select id="payment_method" name="payment_method" class="form-control" required="">
                     <option value="" selected="" disabled="">Payment Method</option>
