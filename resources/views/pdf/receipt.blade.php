@@ -34,7 +34,69 @@
   </style>
 </head>
 <body>
-  
+  <h2 align="center">
+    <img src="{{ public_path('images/logo.png') }}" style="height: 80px; width: auto;">
+    <br/>
+    <span class="calibri_normal">Al Amana</span> Halal & Global Food<br/>
+    <small class="calibri_normal" style="font-size: 14px;">Email: sadekshiblu080@gmail.com, Phone: 080-9212-9030</small>
+  </h2>
+  <h2 align="center" class="calibri_normal" style="color: #397736; border-bottom: 1px solid #397736;">
+    INVOICE
+  </h2>
+
+  <table>
+    <tr>
+      <td class="calibri_normal">
+        Customer Name: <span style="font-family: 'kalpurush', sans-serif;">{{ $order->user->name }}</span><br/>
+        Customer ID: {{ $order->user->code }}<br/>
+        Contact No: {{ $order->user->phone }}<br/>
+        Email Address: {{ $order->user->email }}<br/>
+        Delivery Address:<br/>
+        @if($order->deliverylocation == 1020)
+          {{ deliverylocation($order->deliverylocation) }}
+        @else
+          {{ $order->user->address }}
+        @endif
+        
+      </td>
+      <td align="right" class="calibri_normal">
+        <big>Invoice No: <b>{{ $order->payment_id }}</b></big> <br/>
+        Ordered at: {{ date('F d, Y h:i A', strtotime($order->created_at)) }}<br/>
+        Payment method: {{ payment_method($order->payment_method) }}
+      </td>
+    </tr>
+  </table><br/>
+
+  <table class="bordertable">
+    <thead>
+      <tr>
+        <th class="calibri_normal" width="40%">Product</th>
+        <th class="calibri_normal">Quantity</th>
+        <th class="calibri_normal">Price</th>
+        <th class="calibri_normal" width="30%">Total</th>
+      </tr>
+    </thead>
+    <tbody>
+      @foreach($order->cart->items as $item)
+      <tr>
+        <td>{{ $item['item']['title'] }}</td>
+        <td align="center" class="calibri_normal">{{ $item['qty'] }}</td>
+        <td align="right">¥ <span class="calibri_normal">{{ $item['item']['price'] }}</span></td>
+        <td align="right">¥ <span class="calibri_normal">{{ $item['price'] }}</span></td>
+      </tr>
+      @endforeach
+      <tr>
+        <td colspan="3"></td>
+        <td align="right" class="calibri_normal" style="line-height: 1.5em;">
+          SUBTOTAL <span style="font-family: 'kalpurush', sans-serif;">¥</span> {{ $order->cart->totalPrice - $order->cart->deliveryCharge + $order->cart->discount }}<br/>
+          Delivery Charge <span style="font-family: 'kalpurush', sans-serif;">¥</span> {{ $order->cart->deliveryCharge }}<br/>
+          Discount <span style="font-family: 'kalpurush', sans-serif;">¥</span> {{ $order->cart->discount }}<br/>
+          <big>TOTAL <span style="font-family: 'kalpurush', sans-serif;">¥</span> {{ $order->cart->totalPrice }}</big>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <br/><br/><br/>
 
   <h3 align="center" style="color: #100569; font-family: Calibri;">
     Total in words: {{ convertNumberToWord($order->cart->totalPrice) }} Taka Only
