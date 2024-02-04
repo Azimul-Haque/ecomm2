@@ -20,7 +20,7 @@
                     <!-- breadcrumb -->
                     <ul>
                         <li><a href="#">Home</a></li>
-                        <li>Login</li>
+                        <li>Register</li>
                     </ul>
                     <!-- end breadcrumb -->
                 </div>
