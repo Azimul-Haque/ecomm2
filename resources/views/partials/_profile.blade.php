@@ -32,7 +32,7 @@
 				<li title="This is your user ID. You will get Bonus Amount when your friend use the ID to make a purchase!">
 					<i class="fa fa-id-card-o"></i> <b>{{ Auth::user()->code }}</b>
 				</li>
-				<li title="Earned Balance"><i class="fa fa-money"></i> ৳ {{ Auth::user()->points }}</li>
+				<li title="Earned Balance"><i class="fa fa-money"></i> ¥ {{ Auth::user()->points }}</li>
 				<li title="Contact No"><i class="fa fa-phone"></i> {{ Auth::user()->phone }}</li>
 				<li title="Email Address"><i class="fa fa-envelope-o"></i> {{ Auth::user()->email }}</li>
 				<li title="Delivery Address"><i class="fa fa-home"></i> {{ Auth::user()->address }}</li>
