@@ -1,6 +1,6 @@
 @extends('layouts.index')
 
-@section('title', 'Category wise | LOYAL অভিযাত্রী')
+@section('title', 'Category wise | Al Amana Halal & Global Food')
 
 @section('css')
   <script type="text/javascript" src="{{ asset('vendor/hcode/js/jquery.min.js') }}"></script>
