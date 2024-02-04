@@ -158,7 +158,7 @@
                 <hr/>
               </div>
               <div class="">
-                <a href="{{ route('product.checkout') }}" class="highlight-button btn btn-medium no-margin pull-left"><i class="fa fa-check-square-o" aria-hidden="true"></i> অর্ডারটি নিশ্চিত করুন</a>
+                <a href="{{ route('product.checkout') }}" class="highlight-button btn btn-medium no-margin pull-left"><i class="fa fa-check-square-o" aria-hidden="true"></i> Confirm the Order</a>
               </div>
             @else
               <div class="col-md-10 col-md-offset-1">
