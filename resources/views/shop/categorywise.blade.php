@@ -61,9 +61,9 @@
                               <span class="product-name text-uppercase"><a href="{{ route('product.getsingleproduct', [$product->id, generate_token(100)]) }}" class="bg-white">{{ $product->title }}</a></span>
                               <span class="price black-text">
                                 @if($product->oldprice > 0)
-                                  <del>৳ {{ $product->oldprice }}</del>
+                                  <del>¥ {{ $product->oldprice }}</del>
                                 @endif
-                                ৳ {{ $product->price }}
+                                ¥ {{ $product->price }}
                               </span>
                               {{-- <span class="onsale onsale-style-2">Sale</span> --}}
                               <div class="quick-buy">
