@@ -89,7 +89,7 @@
               </ul>
 
               {!! Form::label('address', 'Delivery address:') !!}
-              {!! Form::text('address', Auth::user()->address, array('class' => 'form-control')) !!}<br/>
+              {!! Form::text('address', Auth::user()->address, array('class' => 'form-control')) !!}
 
               <div class="row">
                 {{-- <div class="col-md-4">
