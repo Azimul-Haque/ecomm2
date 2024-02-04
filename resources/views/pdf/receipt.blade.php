@@ -99,7 +99,7 @@
   <br/><br/><br/>
 
   <h3 align="center" style="color: #100569; font-family: Calibri;">
-    Total in words: {{ convertNumberToWord($order->cart->totalPrice) }} Taka Only
+    Total in words: {{ convertNumberToWord($order->cart->totalPrice) }} Yen Only
   </h3><br/>
 
   <h4 align="center" style="font-family: Calibri;">
