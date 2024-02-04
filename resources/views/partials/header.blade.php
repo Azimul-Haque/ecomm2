@@ -73,8 +73,8 @@
           <li class="{{ Request::is('user/*') ? 'dropdown active': 'dropdown' }}">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user" aria-hidden="true"></i> {{ Auth::user()->name }} <span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li><a href="{{ route('user.profile') }}"><i class="fa fa-user" aria-hidden="true"></i> প্রোফাইল</a></li>
-              <li><a href="#"><i class="fa fa-ticket" aria-hidden="true"></i> ইউজার আইডিঃ <b>{{ Auth::user()->code }}</b></a></li>
+              <li><a href="{{ route('user.profile') }}"><i class="fa fa-user" aria-hidden="true"></i> Profile</a></li>
+              <li><a href="#"><i class="fa fa-ticket" aria-hidden="true"></i> User ID: <b>{{ Auth::user()->code }}</b></a></li>
               <li role="separator" class="divider"></li>
               <li><a href="{{ route('user.logout') }}"><i class="fa fa-sign-out" aria-hidden="true"></i> লগ আউট</a></li>
             </ul>
