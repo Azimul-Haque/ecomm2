@@ -45,7 +45,7 @@
                     <li class="list-group-item" id="productItemListItem{{ $product['item']['id'] }}">
                       <div class="row">
                         <div class="col-md-6 col-sm-6 col-xs-6">
-                          <strong>{{ $product['item']['title'] }}</strong> / 
+                          <strong><a href="">{{ $product['item']['title'] }}</a></strong> / 
                           <span class="label label-success">¥ {{ $product['item']['price'] }}</span>
                           <img src="{{ asset('images/product-images/'.$product['item']['productimages']->first()->image) }}" style="max-height: 40px; border:1px solid #777">
                         </div>
