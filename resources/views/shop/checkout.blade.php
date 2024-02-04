@@ -88,7 +88,7 @@
                 </li>
               </ul>
 
-              {!! Form::label('address', 'পণ্য প্রেরণের ঠিকানা') !!}
+              {!! Form::label('address', 'Delivery address:') !!}
               {!! Form::text('address', Auth::user()->address, array('class' => 'form-control')) !!}<br/>
 
               <div class="row">
