@@ -120,7 +120,7 @@
                     <h5>About Us</h5>
                     <!-- end headline -->
                     <!-- text -->
-                    <p class="footer-text">Start your journey with <b>LOYAL অভিযাত্রী</b> and we will keep providing you with the best products available, in shaa Allah!</p>
+                    <p class="footer-text">Start your journey with <b>Al Amana Halal & Global Food</b> and we will keep providing you with the best products available, in shaa Allah!</p>
                     <!-- end text -->
                 </div>
                 <div class="col-md-2 col-sm-3 col-xs-4 footer-link2 col-md-offset-3">
@@ -131,7 +131,7 @@
                 </div>
                 <div class="col-md-2 col-sm-3 col-xs-4  footer-link4">
                     <!-- headline -->
-                    <h5>LOYAL  অভিযাত্রী</h5>
+                    <h5>Al Amana Halal & Global Food</h5>
                     <!-- end headline -->
                     <!-- link -->
                     <ul>
