@@ -86,7 +86,7 @@
       </ul>
       <form accept-charset="UTF-8" class="search-in-navbar">
         <div class="input-group add-on">
-            <input class="form-control" name="search" type="search" autocomplete="on"  placeholder="অনুসন্ধান (দুধ, ডিম, পাউরুটি ইত্যাদি)" id="search-content">
+            <input class="form-control" name="search" type="search" autocomplete="on"  placeholder="Search (milk, eggs, bread etc.)" id="search-content">
           <div class="input-group-btn">
             <button class="btn btn-success" type="submit"><i class="glyphicon glyphicon-search"></i></button>
           </div>
