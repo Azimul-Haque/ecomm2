@@ -83,7 +83,7 @@
                                     if($(window).width() > 768) {
                                       toastr.success('{{ $product['item']['title'] }} One unit amount of this has been removed from your bag.', 'SUCCESS').css('width','400px');
                                     } else {
-                                      toastr.success('{{ $product['item']['title'] }} এর এক ইউনিট পরিমাণ আপনার ব্যাগ থেকে বাদ দেওয়া হয়েছে।', 'সফল (SUCCESS)').css('width', ($(window).width()-25)+'px');
+                                      toastr.success('{{ $product['item']['title'] }} One unit amount of this has been removed from your bag.', 'SUCCESS').css('width', ($(window).width()-25)+'px');
                                     }
                                   }
                                   var totalInBag = parseInt($("#totalInBag").text()) - 1;
