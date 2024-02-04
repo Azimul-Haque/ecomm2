@@ -284,7 +284,7 @@ class ProductController extends Controller
         'address'              => 'required',
         'fcode'                => 'sometimes',
         'useearnedbalance'     => 'required',
-        'deliverylocation'     => 'required',
+        // 'deliverylocation'     => 'required',
         'payment_method'       => 'required'
       ]);
 
