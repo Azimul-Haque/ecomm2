@@ -1,6 +1,6 @@
 @extends('layouts.index')
 
-@section('title', $article->title . ' | LOYAL অভিযাত্রী')
+@section('title', $article->title . ' | Al Amana Halal & Global Food')
 
 @section('css')
   @if($article->image != null)
@@ -9,17 +9,17 @@
       <meta property="og:image" content="{{ asset('images/abc.png') }}" />
   @endif
 
-  <meta property="og:title" content="{{ $article->title }} | LOYAL অভিযাত্রী"/>
+  <meta property="og:title" content="{{ $article->title }} | Al Amana Halal & Global Food"/>
   <meta property="og:description" content="{{ substr(strip_tags($article->description), 0, 200) }}" />
   <meta property="og:type" content="article"/>
   <meta property="og:url" content="{{ Request::url() }}" />
-  <meta property="og:site_name" content="LOYAL অভিযাত্রী">
+  <meta property="og:site_name" content="Al Amana Halal & Global Food">
   <meta property="og:locale" content="en_US">
   <meta property="fb:admins" content="100001596964477">
   <meta property="fb:app_id" content="163879201229487">
   <meta property="og:type" content="article">
   <!-- Open Graph - Article -->
-  <meta name="article:section" content="LOYAL অভিযাত্রী">
+  <meta name="article:section" content="Al Amana Halal & Global Food">
   <meta name="article:published_time" content="{{ $article->created_at}}">
   <meta name="article:author" content="Ecom">
   <meta name="article:tag" content="Article">
