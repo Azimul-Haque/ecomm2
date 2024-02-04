@@ -74,10 +74,10 @@ class ProductController extends Controller
                'from' => $request->email,
                'phone' => $request->phone,
                'message_data' => $request->message,
-               'subject' => 'Message from LOYAL অভিযাত্রী Contact Form',
+               'subject' => 'Message from Al Amana Halal & Global Food Contact Form',
            );
            Mail::send('emails.contact', $data, function($message) use ($data){
-             $message->from($data['from'], 'LOYAL অভিযাত্রী Contact');
+             $message->from($data['from'], 'Al Amana Halal & Global Food Contact');
              $message->to($data['email']);
              $message->subject($data['subject']);
            });
@@ -351,11 +351,11 @@ class ProductController extends Controller
         $data = array(
             'email' => Auth::user()->email,
             'from' => 'support@loyalovijatri.com',
-            'subject' => 'Your LOYAL অভিযাত্রী Invoice',
+            'subject' => 'Your Al Amana Halal & Global Food Invoice',
             'order' => $order,
         );
         Mail::send('emails.receipt', $data, function($message) use ($data){
-            $message->from($data['from'], 'LOYAL অভিযাত্রী Invoice');
+            $message->from($data['from'], 'Al Amana Halal & Global Food Invoice');
             $message->to($data['email']);
             $message->subject($data['subject']);
         });
@@ -380,11 +380,11 @@ class ProductController extends Controller
       $data = array(
           'email' => Auth::user()->email,
           'from' => 'support@alamanahalalfood.com',
-          'subject' => 'Your LOYAL অভিযাত্রী Invoice',
+          'subject' => 'Your Al Amana Halal & Global Food Invoice',
           'order' => $order,
       );
       Mail::send('emails.receipt', $data, function($message) use ($data){
-          $message->from($data['from'], 'LOYAL অভিযাত্রী Invoice');
+          $message->from($data['from'], 'Al Amana Halal & Global Food Invoice');
           $message->to($data['email']);
           $message->subject($data['subject']);
       });
