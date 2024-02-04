@@ -379,7 +379,7 @@ class ProductController extends Controller
       $order->cart = unserialize($order->cart);
       $data = array(
           'email' => Auth::user()->email,
-          'from' => 'support@loyalovijatri.com',
+          'from' => 'support@alamanahalalfood.com',
           'subject' => 'Your LOYAL অভিযাত্রী Invoice',
           'order' => $order,
       );
