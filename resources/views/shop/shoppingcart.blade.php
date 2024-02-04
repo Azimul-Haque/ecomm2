@@ -62,7 +62,7 @@
                               <span id="itemTotalPrice{{ $product['item']['id'] }}" class="">Total: ¥ {{ $product['price'] }}</span>
                             </div>
                             <div class="col-lg-2 col-md-3 col-sm-3 col-xs-12 item-center">
-                              <a class="btn btn-link btn-sm" class="right" href="{{ route('product.removeitem', ['id' => $product['item']['id']]) }}" data-toggle="tooltip" data-placement="bottom" title="এই আইটেমটি তালিকা থেকে বাদ দিতে হলে এখানে ক্লিক করুন"><i class="fa fa-times black-text" aria-hidden="true"></i></a>
+                              <a class="btn btn-link btn-sm" class="right" href="{{ route('product.removeitem', ['id' => $product['item']['id']]) }}" data-toggle="tooltip" data-placement="bottom" title="Click here to remove this item from the list"><i class="fa fa-times black-text" aria-hidden="true"></i></a>
                             </div>
                           </div>
                         </div>
