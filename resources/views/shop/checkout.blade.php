@@ -111,10 +111,10 @@
                   </select>
                   <span id="bKashText"></span>
                 </div>
-                <div class="col-md-4">
+                {{-- <div class="col-md-4">
                   <label for="fcode">আপনার বন্ধুর ইউজার আইডি (যদি থাকে) <a href="#!" title="আপনার বন্ধুর ইউজার আইডি দিলে তার একাউন্টে পয়েন্ট যোগ হবে!"><i class="fa fa-question-circle"></i></a></label>
                   {!! Form::text('fcode', null, array('class' => 'form-control')) !!}
-                </div>
+                </div> --}}
               </div>
 
               {!! Form::submit('আপনার অর্ডারটি নিশ্চিত করুন', array('class' => 'highlight-button-black-background btn btn-medium no-margin pull-right checkout-btn xs-width-100 xs-text-center', 'style' => 'margin-top:20px;', 'id' => 'checkout-btn')) !!}
