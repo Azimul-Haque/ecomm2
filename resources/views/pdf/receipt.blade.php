@@ -34,38 +34,7 @@
   </style>
 </head>
 <body>
-  <h2 align="center">
-    <img src="{{ public_path('images/logo.png') }}" style="height: 80px; width: auto;">
-    <br/>
-    <span class="calibri_normal">Al Amana</span> Halal & Global Food<br/>
-    <small class="calibri_normal" style="font-size: 14px;">Email: sadekshiblu080@gmail.com, Phone: 080-9212-9030</small>
-  </h2>
-  <h2 align="center" class="calibri_normal" style="color: #397736; border-bottom: 1px solid #397736;">
-    INVOICE
-  </h2>
-
-  <table>
-    <tr>
-      <td class="calibri_normal">
-        Customer Name: <span style="font-family: 'kalpurush', sans-serif;">{{ $order->user->name }}</span><br/>
-        Customer ID: {{ $order->user->code }}<br/>
-        Contact No: {{ $order->user->phone }}<br/>
-        Email Address: {{ $order->user->email }}<br/>
-        Delivery Address:<br/>
-        @if($order->deliverylocation == 1020)
-          {{ deliverylocation($order->deliverylocation) }}
-        @else
-          {{ $order->user->address }}
-        @endif
-        
-      </td>
-      <td align="right" class="calibri_normal">
-        <big>Invoice No: <b>{{ $order->payment_id }}</b></big> <br/>
-        Ordered at: {{ date('F d, Y h:i A', strtotime($order->created_at)) }}<br/>
-        Payment method: {{ payment_method($order->payment_method) }}
-      </td>
-    </tr>
-  </table><br/>
+  
 
   <table class="bordertable">
     <thead>
