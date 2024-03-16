@@ -42,7 +42,7 @@
                   <div class="big-text">
                     <p>Welcome to Azlan Agro Foods Limited!</p>
 
-                    <p>These terms and conditions outline the rules and regulations for the use of Azlan Agro Foods Limited's Website, located at http://simgroupd-bd.com.</p>
+                    <p>These terms and conditions outline the rules and regulations for the use of Azlan Agro Foods Limited's Website, located at https://simgroupd-bd.com.</p>
 
                     <p>By accessing this website we assume you accept these terms and conditions. Do not continue to use Azlan Agro Foods Limited if you do not agree to take all of the terms and conditions stated on this page.</p>
 
