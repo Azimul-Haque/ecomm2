@@ -79,7 +79,7 @@
         <div class="container-fuild">
             <div class="row no-margin">
                 <div id="canvas1" class="col-md-12 col-sm-12 no-padding contact-map map">
-                    <iframe id="map_canvas1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d228.15381575062793!2d90.41996169460832!3d23.8021988655692!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c7ae2e36518f%3A0xa99fbb70a63e1639!2sBaridhara%2C%20Dhaka%201212!5e0!3m2!1sen!2sbd!4v1710618701194!5m2!1sen!2sbd"></iframe>
+                    <iframe id="map_canvas1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1825.2277284803156!2d90.41919860611068!3d23.802397951995648!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c7ae2e36518f%3A0xa99fbb70a63e1639!2sBaridhara%2C%20Dhaka%201212!5e0!3m2!1sen!2sbd!4v1710618762962!5m2!1sen!2sbd"></iframe>
                 </div>
             </div>
         </div>
