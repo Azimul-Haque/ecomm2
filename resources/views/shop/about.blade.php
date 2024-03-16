@@ -45,7 +45,8 @@
                       </div>
                       <div class="col-md-12">
                           <p class="big-text">
-                            Vision Azlan Agro Foods Ltd., a concern of SIM Group, aspires to establish itself as the epitome of global excellence in the food industry. Our vision entails achieving international acclaim for the "Finefood" Brand, synonymous with unparalleled quality and innovation.<br/><br/>
+                            <h2>Vision</h2>
+                            Azlan Agro Foods Ltd., a concern of SIM Group, aspires to establish itself as the epitome of global excellence in the food industry. Our vision entails achieving international acclaim for the "Finefood" Brand, synonymous with unparalleled quality and innovation.<br/><br/>
                             So, start your journey with <b>Al Amana Halal & Global Food</b> and we will keep providing you with the best
                             products available, in shaa Allah!
                           </p>
