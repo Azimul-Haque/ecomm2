@@ -45,9 +45,7 @@
                       </div>
                       <div class="col-md-12">
                           <p class="big-text">
-                            You shall find here the best care products for your hair and skin, smartest available gadgets and
-                            tasty treats to your sweet teeth. At a reasonable price, we assure you loyalty in our service and
-                            authenticity in our products.<br/><br/>
+                            Vision Azlan Agro Foods Ltd., a concern of SIM Group, aspires to establish itself as the epitome of global excellence in the food industry. Our vision entails achieving international acclaim for the "Finefood" Brand, synonymous with unparalleled quality and innovation.<br/><br/>
                             So, start your journey with <b>Al Amana Halal & Global Food</b> and we will keep providing you with the best
                             products available, in shaa Allah!
                           </p>
