@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'title' => 'Al Amana',
+    'title' => 'AZLAN',
 
     'title_prefix' => '',
 
