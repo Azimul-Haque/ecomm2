@@ -68,7 +68,7 @@
                   {{-- <span class="margin-five no-margin-top display-block letter-spacing-2">EST. 2018</span> --}}
                   <h2>Azlan Agro Foods Limited</h2>
                   <p class="text-med width-90 center-col margin-seven no-margin-bottom">
-                    We provide Halal Food for you...<br/>ハラールフードをご提供いたします...
+                    Azlan Agro Foods Ltd., a concern of SIM Group, aspires to establish itself as the epitome of global excellence in the food industry. Our vision entails achieving international acclaim for the "Finefood" Brand, synonymous with unparalleled quality and innovation.
                   </p>
               </div>
           </div>
