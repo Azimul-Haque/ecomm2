@@ -3,7 +3,7 @@
 
 <head>
     <title>@yield('title')</title>
-    <meta name="description" content="Azlan Agro Foods Limited provides you halal food. Developed by A. H. M. Azimul Haque.">
+    <meta name="description" content="Azlan Agro Foods Limited produce and deliver premium offerings, including cookies, rusk toast, cup cakes, puffed rice, snacks, semai, noodles, drinks, chips, spices, and culinary products. Developed by A. H. M. Azimul Haque.">
     <meta name="keywords" content="Azlan Agro Foods Limited">
     <meta charset="utf-8">
     <meta name="author" content="A. H. M. Azimul Haque">
