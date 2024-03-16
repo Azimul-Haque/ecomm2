@@ -3,8 +3,8 @@
 
 <head>
     <title>@yield('title')</title>
-    <meta name="description" content="Al Amana Halal & Global Food provides you halal food. Developed by A. H. M. Azimul Haque.">
-    <meta name="keywords" content="Al Amana Halal & Global Food, Al Amana Global Co. Ltd">
+    <meta name="description" content="Azlan Agro Foods Limited provides you halal food. Developed by A. H. M. Azimul Haque.">
+    <meta name="keywords" content="Azlan Agro Foods Limited">
     <meta charset="utf-8">
     <meta name="author" content="A. H. M. Azimul Haque">
     <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
