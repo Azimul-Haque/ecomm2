@@ -48,8 +48,7 @@
                             <h2>Vision</h2>
                             Azlan Agro Foods Ltd., a concern of SIM Group, aspires to establish itself as the epitome of global excellence in the food industry. Our vision entails achieving international acclaim for the "Finefood" Brand, synonymous with unparalleled quality and innovation.<br/><br/>
                             <h2>Mission</h2>
-                            So, start your journey with <b>Al Amana Halal & Global Food</b> and we will keep providing you with the best
-                            products available, in shaa Allah!
+                            Dedicated to precision and perfection, our mission is to meticulously produce and deliver premium offerings, including cookies, rusk toast, cup cakes, puffed rice, snacks, semai, noodles, drinks, chips, spices, and culinary products. Upholding unwavering commitment to the highest standards of production, we aim to exceed customer expectations, foster innovation, and strategically contribute to the global marketplace while upholding the principles of sustainability and corporate responsibility
                           </p>
                       </div>
                   </div>
