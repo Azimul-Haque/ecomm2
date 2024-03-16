@@ -71,7 +71,7 @@
                     </td>
                     <td>
                       <img style="max-height: 40px; border:1px solid #777" class="img-responsive" src="{{ asset('images/product-images/'.$product->productimages->first()->image) }}">
-                      {{ $product->productimages->first()->image }}
+                      {{ $product->productimages->first() }}
                     </td>
                     <td>{{ $product->stock }}</td>
                     <td>৳ {{ $product->buying_price }}</td>
