@@ -37,7 +37,7 @@
   <h2 align="center">
     <img src="{{ public_path('images/logo.png') }}" style="height: 80px; width: auto;">
     <br/>
-    <span class="calibri_normal">Al Amana</span> Halal & Global Food<br/>
+    <span class="calibri_normal">Azlan Agro</span> Foods Limited<br/>
     <small class="calibri_normal" style="font-size: 14px;">Email: sadekshiblu080@gmail.com, Phone: 080-9212-9030</small>
   </h2>
   <h2 align="center" class="calibri_normal" style="color: #397736; border-bottom: 1px solid #397736;">
