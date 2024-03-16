@@ -1,6 +1,7 @@
 @extends('layouts.index')
 
-@section('title', 'Shopping C
+@section('title', 'Shopping Cart')
+
 @section('css')
   <script type="text/javascript" src="{{ asset('vendor/hcode/js/jquery.min.js') }}"></script>
   <style type="text/css">
