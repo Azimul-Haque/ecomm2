@@ -44,7 +44,7 @@
                           <h3 class="section-title">Vision & Mission</h3>
                       </div>
                       <div class="col-md-12">
-                          <p class="big-text">
+                          <p class="">
                             <h2>Vision</h2>
                             Azlan Agro Foods Ltd., a concern of SIM Group, aspires to establish itself as the epitome of global excellence in the food industry. Our vision entails achieving international acclaim for the "Finefood" Brand, synonymous with unparalleled quality and innovation.<br/><br/>
                             <h2>Mission</h2>
