@@ -1,6 +1,6 @@
 @extends('layouts.index')
 
-@section('title', 'Category wise')
+@section('title', 'Category Wise')
 
 @section('css')
   <script type="text/javascript" src="{{ asset('vendor/hcode/js/jquery.min.js') }}"></script>
