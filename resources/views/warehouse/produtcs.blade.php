@@ -70,7 +70,7 @@
                       <small>{{ $product->category->name }} - {{ $product->subcategory->name }} <b>(Code: {{ $product->code }})</b></small>
                     </td>
                     <td>
-                      {{-- <img style="max-height: 40px; border:1px solid #777" class="img-responsive" src="{{ asset('images/product-images/'.$product->productimages->first()['image']) }}"> --}}
+                      <img style="max-height: 40px; border:1px solid #777" class="img-responsive" src="{{ asset('images/product-images/'.$product->productimages->first()['image']) }}">
                       {{ $product->productimages->first()['image'] }}
                     </td>
                     <td>{{ $product->stock }}</td>
