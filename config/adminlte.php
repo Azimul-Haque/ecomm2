@@ -30,7 +30,7 @@ return [
     |
     */
 
-    'logo' => '<b>A</b>Z',
+    'logo' => '<b>AZLAN</b>AGRO',
 
     'logo_mini' => '<b>A</b>A',
 
