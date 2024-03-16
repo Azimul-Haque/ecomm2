@@ -118,7 +118,7 @@
                                   <h2>{{ $product->title }}</h2>
                                   <h4>{{ $product->category->name }}</h4>
                                   মূল্যঃ ৳ {{ $product->price }}<br/><br/>
-                                  <img style="max-height: 100px; border:1px solid #777" class="img-responsive" src="{{ asset('images/product-images/'.$product->productimages->first()->image) }}">
+                                  <img style="max-height: 100px; border:1px solid #777" class="img-responsive" src="{{ asset('images/product-images/'.$product->productimages->first()['image']) }}">
                                 </center>
                               </p>
                             </div>
