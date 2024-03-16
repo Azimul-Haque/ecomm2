@@ -1,6 +1,6 @@
 @extends('layouts.index')
 
-@section('title', $article->title . ' | Al Amana Halal & Global Food')
+@section('title', $article->title)
 
 @section('css')
   @if($article->image != null)
