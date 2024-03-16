@@ -44,12 +44,12 @@
                           <h3 class="section-title">Vision & Mission</h3>
                       </div>
                       <div class="col-md-12">
-                          <span class="" style="font-size: 18px;">
+                          <p class="big-text">
                             <h2>Vision</h2>
                             Azlan Agro Foods Ltd., a concern of SIM Group, aspires to establish itself as the epitome of global excellence in the food industry. Our vision entails achieving international acclaim for the "Finefood" Brand, synonymous with unparalleled quality and innovation.<br/><br/>
                             <h2>Mission</h2>
                             Dedicated to precision and perfection, our mission is to meticulously produce and deliver premium offerings, including cookies, rusk toast, cup cakes, puffed rice, snacks, semai, noodles, drinks, chips, spices, and culinary products. Upholding unwavering commitment to the highest standards of production, we aim to exceed customer expectations, foster innovation, and strategically contribute to the global marketplace while upholding the principles of sustainability and corporate responsibility.
-                          </span>
+                          </p>
                       </div>
                   </div>
               </div>
