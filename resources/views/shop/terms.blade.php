@@ -1,6 +1,6 @@
 @extends('layouts.index')
 
-@section('title', 'Terms and Conditions | Al Amana Halal & Global Food')
+@section('title', 'Terms and Conditions')
 
 @section('css')
   <style type="text/css">
