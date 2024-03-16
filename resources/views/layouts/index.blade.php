@@ -93,7 +93,7 @@
                     <!-- phone -->
                     <div class="col-md-4 col-sm-4 text-center">
                         <i class="icon-phone small-icon black-text"></i>
-                        <h6 class="black-text margin-two no-margin-bottom"><a href="tel:080-9212-9030">080-9212-9030</a></h6>
+                        <h6 class="black-text margin-two no-margin-bottom"><a href="tel:080-9212-9030">+8800000000000</a></h6>
                     </div>
                     <!-- end phone -->
                     <!-- address -->
