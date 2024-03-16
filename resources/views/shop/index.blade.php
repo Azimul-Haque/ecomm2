@@ -153,7 +153,7 @@
                         <!-- shop item -->
                         <div class="col-md-4 col-sm-4" style="min-height: 320px;">
                             <div class="home-product text-center position-relative overflow-hidden margin-ten no-margin-top">
-                                <a href="{{ route('product.getsingleproduct', [$product->id, generate_token(100)]) }}"><img src="{{ asset('images/product-images/'.$product->productimages->first()->image) }}" alt="{{ $product->title }}"></a>
+                                <a href="{{ route('product.getsingleproduct', [$product->id, generate_token(100)]) }}"><img src="{{ asset('images/product-images/'.$product->productimages->first()['image']) }}" alt="{{ $product->title }}"></a>
                                 <span class="product-name text-uppercase"><a href="{{ route('product.getsingleproduct', [$product->id, generate_token(100)]) }}" class="bg-white">{{ $product->title }}</a></span>
                                 <span class="price black-text">
                                   @if($product->oldprice > 0)
