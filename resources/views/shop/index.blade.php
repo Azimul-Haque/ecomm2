@@ -1,6 +1,6 @@
 @extends('layouts.index')
 
-@section('title', 'We provide Halal Food for you')
+@section('title', 'Azlan Agro Foods Limited produce and deliver premium offerings, including cookies, rusk toast, cup cakes, puffed rice, snacks, semai, noodles, drinks, chips, spices, and culinary products')
 
 @section('css')
   <script type="text/javascript" src="{{ asset('vendor/hcode/js/jquery.min.js') }}"></script>
