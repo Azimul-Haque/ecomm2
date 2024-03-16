@@ -1,7 +1,6 @@
 @extends('layouts.index')
 
-@section('title', 'Shopping cart | Al Amana Halal & Global Food')
-
+@section('title', 'Shopping C
 @section('css')
   <script type="text/javascript" src="{{ asset('vendor/hcode/js/jquery.min.js') }}"></script>
   <style type="text/css">
