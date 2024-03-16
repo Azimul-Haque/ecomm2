@@ -41,7 +41,7 @@
                   
                   <div class="row padding-bottom-ten">
                       <div class="col-md-12 text-center">
-                          <h3 class="section-title">Assalamu Alaikum</h3>
+                          <h3 class="section-title">Vision & Mission</h3>
                       </div>
                       <div class="col-md-12">
                           <p class="big-text">
