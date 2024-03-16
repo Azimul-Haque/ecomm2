@@ -99,7 +99,7 @@
                     <!-- address -->
                     <div class="col-md-4 col-sm-4 text-center">
                         <i class="icon-map-pin small-icon black-text"></i>
-                        <h6 class="black-text margin-two no-margin-bottom">1521-40, Yotsukaido, Yotsukaido-Shi CHIBA 284-0005</h6>
+                        <h6 class="black-text margin-two no-margin-bottom">House # 315, Road # 04, baridhara DOHS, Dhaka-1206</h6>
                     </div>
                     <!-- end address -->
                     <!-- email -->
