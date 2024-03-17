@@ -35,7 +35,7 @@
                     <div class="row">
                         <div class="col-md-6">
                             <p class="text-med black-text letter-spacing-1 margin-ten no-margin-bottom text-uppercase font-weight-600 xs-margin-top-five">Email</p>
-                            <p><i class="fa fa-envelope black-text"></i> <a href="mailto:finefood@simgroupd-bd.com">finefood@simgroupd-bd.com</a></p>
+                            <p><i class="fa fa-envelope black-text"></i> <a href="mailto:info@almanifood.com">info@almanifood.com</a></p>
                         </div>
                         <div class="col-md-6 xs-text-center">
                             <p class="text-med black-text letter-spacing-1 margin-ten no-margin-bottom text-uppercase font-weight-600 xs-margin-top-five">Contact No.</p>
@@ -79,7 +79,7 @@
         <div class="container-fuild">
             <div class="row no-margin">
                 <div id="canvas1" class="col-md-12 col-sm-12 no-padding contact-map map">
-                    <iframe id="map_canvas1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1825.2277284803156!2d90.41919860611068!3d23.802397951995648!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c7ae2e36518f%3A0xa99fbb70a63e1639!2sBaridhara%2C%20Dhaka%201212!5e0!3m2!1sen!2sbd!4v1710618762962!5m2!1sen!2sbd"></iframe>
+                    <iframe id="map_canvas1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d228.27889102687192!2d90.41160850597943!3d23.730889902261307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8f639400001%3A0xd04104ba9d7da018!2s5th%20Floor%2C%20Noorjahan%20Sharif%20Plaza%2C%2034%20Purana%20Paltan%2C%20Dhaka%201000!5e0!3m2!1sen!2sbd!4v1710696401449!5m2!1sen!2sbd"></iframe>
                 </div>
             </div>
         </div>

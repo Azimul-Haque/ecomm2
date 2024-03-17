@@ -66,9 +66,9 @@
           <div class="row">
               <div class="col-md-6 col-sm-10 text-center center-col">
                   {{-- <span class="margin-five no-margin-top display-block letter-spacing-2">EST. 2018</span> --}}
-                  <h2>Azlan Agro Foods Limited</h2>
+                  <h2>AL-Mani Food Products</h2>
                   <p class="text-med width-90 center-col margin-seven no-margin-bottom">
-                    Azlan Agro Foods Ltd., a concern of SIM Group, aspires to establish itself as the epitome of global excellence in the food industry. Our vision entails achieving international acclaim for the "Finefood" Brand, synonymous with unparalleled quality and innovation.
+                    AL-Mani Food Products aspires to establish itself as the epitome of global excellence in the food industry. Our vision entails achieving international acclaim for unparalleled quality and innovation.
                   </p>
               </div>
           </div>
