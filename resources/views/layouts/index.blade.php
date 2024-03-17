@@ -2,9 +2,9 @@
 <html class="no-js" lang="en">
 
 <head>
-    <title>@yield('title') | Azlan Agro Foods Limited</title>
-    <meta name="description" content="Azlan Agro Foods Limited produce and deliver premium offerings, including cookies, rusk toast, cup cakes, puffed rice, snacks, semai, noodles, drinks, chips, spices, and culinary products. Developed by A. H. M. Azimul Haque.">
-    <meta name="keywords" content="Azlan Agro Foods Limited">
+    <title>@yield('title') | AL-Mani Foods Limited</title>
+    <meta name="description" content="AL-Mani Foods Limited produce and deliver premium offerings, including cookies, rusk toast, cup cakes, puffed rice, snacks, semai, noodles, drinks, chips, spices, and culinary products. Developed by A. H. M. Azimul Haque.">
+    <meta name="keywords" content="AL-Mani Foods Limited">
     <meta charset="utf-8">
     <meta name="author" content="A. H. M. Azimul Haque">
     <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
@@ -120,7 +120,7 @@
                     <h5>About Us</h5>
                     <!-- end headline -->
                     <!-- text -->
-                    <p class="footer-text">Start your journey with <b>Azlan Agro Foods Limited</b> and we will keep providing you with the best products available, in shaa Allah!</p>
+                    <p class="footer-text">Start your journey with <b>AL-Mani Foods Limited</b> and we will keep providing you with the best products available, in shaa Allah!</p>
                     <!-- end text -->
                 </div>
                 <div class="col-md-2 col-sm-3 col-xs-4 footer-link2 col-md-offset-3">
@@ -131,7 +131,7 @@
                 </div>
                 <div class="col-md-2 col-sm-3 col-xs-4  footer-link4">
                     <!-- headline -->
-                    <h5>Azlan Agro Foods Limited</h5>
+                    <h5>AL-Mani Foods Limited</h5>
                     <!-- end headline -->
                     <!-- link -->
                     <ul>
