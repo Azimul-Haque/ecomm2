@@ -1,6 +1,6 @@
 @extends('adminlte::page')
 
-@section('title', 'Categories & Subcategories | LOYAL অভিযাত্রী')
+@section('title', 'Categories & Subcategories')
 
 @section('css')
 
