@@ -106,7 +106,7 @@
                     <div class="col-md-4 col-sm-4 text-center">
                         <i class="icon-envelope small-icon black-text"></i>
                         <h6 class="margin-two no-margin-bottom">
-                            <a href="mailto:finefood@simgroupd-bd.com" class="black-text">finefood@simgroupd-bd.com</a>
+                            <a href="mailto:info@almanifood.com" class="black-text">info@almanifood.com</a>
                         </h6>
                     </div>
                     <!-- end email -->
