@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'title' => 'AZLAN',
+    'title' => 'AL-Mani Food',
 
     'title_prefix' => '',
 
