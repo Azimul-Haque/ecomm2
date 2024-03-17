@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>@yield('title_prefix', config('adminlte.title_prefix', ''))
-        @yield('title', config('adminlte.title', 'AdminLTE 2'))
+        @yield('title', config('adminlte.title', 'AdminLTE 2') . )
         @yield('title_postfix', config('adminlte.title_postfix', ''))
     </title>
     <meta name="description" content="Al Amana Halal & Global Food provides you halal food. Developed by A. H. M. Azimul Haque.">
