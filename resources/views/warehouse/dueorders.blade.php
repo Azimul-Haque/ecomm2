@@ -1,6 +1,6 @@
 @extends('adminlte::page')
 
-@section('title', 'Orders | LOYAL অভিযাত্রী')
+@section('title', 'Orders')
 
 @section('css')
   <script src="{{ asset('vendor/adminlte/vendor/jquery/dist/jquery.min.js') }}"></script>
